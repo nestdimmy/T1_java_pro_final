@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/1.0.0/changelog-1.0.0-cumulative.yml
+  - include:
+      relativeToChangelogFile: true
+      file: changelogs/001-init-tables.yml
